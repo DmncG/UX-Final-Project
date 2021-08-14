@@ -1,0 +1,19 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  background-color: #3D405B;
+  height: 100vh;
+}
+
+.logo-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.muse-logo{
+  
+}
