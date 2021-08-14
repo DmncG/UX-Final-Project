@@ -1,19 +1,41 @@
 body{
   margin: 0;
   padding: 0;
+  background-color: #3D405B;
 }
 
 .main-container {
-  background-color: #3D405B;
   height: 100vh;
+  position: relative;
+  background-color: #3D405B;
 }
 
 .logo-container{
   width: 100%;
+}
+
+.muse-logo{
   display: flex;
   justify-content: center;
 }
 
-.muse-logo{
-  
+.wave-1{
+  position: fixed;
+  bottom: -81px;
+  width: 679.86px;
+  height: 264.66px;
+  left: -144px;
+}
+
+@media only screen and (min-width: 425px) {
+  .main-container{
+    max-width: 425px;
+    margin: auto;
+    border: 3px #f6f4fd solid;
+    overflow-x: hidden
+  }
+
+  .wave-1{
+    position: absolute;
+  }
 }
