@@ -12,7 +12,8 @@ body{
 
 .content {
   position: relative;
-  top: 155px;
+  top: 100px;
+  z-index: 2;
 }
 
 .logo-container {
@@ -31,7 +32,8 @@ body{
   bottom: -81px;
   width: 679.86px;
   height: 264.66px;
-  left: -144px;
+  left: -128px;
+  z-index: 1;
 }
 
 .buttons {
