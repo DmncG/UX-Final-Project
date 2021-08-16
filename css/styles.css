@@ -10,13 +10,20 @@ body{
   background-color: #3D405B;
 }
 
-.logo-container{
-  width: 100%;
+.content {
+  position: relative;
+  top: 155px;
 }
 
-.muse-logo{
+.logo-container {
+  width: 100%;
+  margin: 32px auto;
   display: flex;
   justify-content: center;
+}
+
+.muse-logo {
+  width: 139px;
 }
 
 .wave-1{
@@ -25,6 +32,47 @@ body{
   width: 679.86px;
   height: 264.66px;
   left: -144px;
+}
+
+.buttons {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.button {
+  margin: 12px auto;
+  width: 300px;
+  border-radius: 50px;
+  height: 52px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-family: 'Signika', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  border: none;
+}
+
+.signup-button {
+  background-color: #c779d0;
+  color: #ffffff;
+}
+
+.login-container {
+  margin: 32px auto;
+  text-align: center;
+}
+
+.login {
+  font-family: 'Signika', sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.login:hover {
+  color: #c779d0;
+  font-family: 'Signika', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
 }
 
 @media only screen and (min-width: 425px) {
