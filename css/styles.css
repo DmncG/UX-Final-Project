@@ -114,7 +114,9 @@ body{
     max-width: 425px;
     margin: auto;
     border: 3px #f6f4fd solid;
-    overflow-x: hidden
+    overflow-x: hidden;
+    height: 812px;
+    overflow-y:hidden;
   }
 
   .wave-1{
