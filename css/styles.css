@@ -51,6 +51,7 @@ body{
   font-size: 15px;
   font-weight: 700;
   border: none;
+  cursor: pointer;
 }
 
 .apple-button {
@@ -67,6 +68,10 @@ body{
 
 .google-button {
   position: relative;
+}
+
+.google-button {
+  background-color: #ffffff;
 }
 
 .google-logo {
