@@ -8,6 +8,8 @@ body{
   height: 100vh;
   position: relative;
   background-color: #3D405B;
+  overflow-y: hidden;
+  height: 812px;
 }
 
 .content {
@@ -117,6 +119,7 @@ body{
     overflow-x: hidden;
     height: 812px;
     overflow-y:hidden;
+    top: 56px;
   }
 
   .wave-1{
