@@ -21,12 +21,15 @@ body{
   }
 
   .btn {
-    position: relative;
-    right: 0;
+    position: absolute;
+    bottom: 258px;
+    right: 3px;
   }
 
   .modal {
     top: 218px;
+    left: 24px;
+    right: 24px;
   }
 
   .modal-backdrop {
@@ -34,9 +37,85 @@ body{
   }
 
   .modal-dialog {
+    border-radius: 16px;
+  }
+
+  .modal-content {
     width: 311px;
     height: 348px;
+    padding: 32px;
     border-radius: 16px;
+  }
+
+  .feed-modal-content {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+  }
+
+  .feed-modal-header {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin: 16px auto;
+  }
+
+  .feed-modal-subheader {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin: auto;
+  }
+
+  button {
+    border: none;
+  }
+
+  .spotify-button {
+    width: 247px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #C779D0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1.25px;
+    border-radius: 50px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    color: white;
+    margin: 32px auto;
+  }
+
+  .feed-link {
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    text-decoration: underline;
+  }
+  
+  .feed-link a {
+    color: black;
+    font-family: inherit;
+    font-size: inherit;
+  }
+
+  .feed-checkbox {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    margin: 16px auto;
+    width: 100%;
+  }
+
+  .form-check-input:checked {
+      background-color: #C779D0;
+      border-color: #C779D0;
   }
   
   @media only screen and (min-width: 375px) {
